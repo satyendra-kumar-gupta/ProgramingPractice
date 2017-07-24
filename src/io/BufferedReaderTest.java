@@ -24,6 +24,8 @@ public class BufferedReaderTest {
         // Shortcut++
         System.out.println(new BufferedReader(new InputStreamReader(System.in)).readLine());
 
+        //Testing New Class
+        BufferedReader b = new BufferedReader(new InputStreamReader(System.in));
 
         BufferedReader bufferedReader1 = new BufferedReader(new FileReader("C:\\Users\\SATYENDRA_GUPTA\\IdeaProjects\\ProgramingPractice\\src\\sample\\AutoBoxing.java"));
         while ((bufferedReader1.readLine()) != null){
